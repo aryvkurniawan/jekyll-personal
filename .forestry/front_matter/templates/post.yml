@@ -20,3 +20,12 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: tanggal
+  type: datetime
+  label: Tanggal
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
